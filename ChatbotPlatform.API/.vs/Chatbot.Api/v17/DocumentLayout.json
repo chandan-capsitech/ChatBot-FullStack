@@ -1,0 +1,1039 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:controllers\\chatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:controllers\\companycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:services\\companyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\dtos\\auth\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\dtos\\auth\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\dtos\\company\\updatecompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\dtos\\company\\updatecompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\dtos\\company\\createcompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\dtos\\company\\createcompanydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\dtos\\company\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\dtos\\company\\companydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\dtos\\company\\createcompanywithadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\dtos\\company\\createcompanywithadmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\data\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:data\\databaseseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\entities\\company.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\dtos\\auth\\authresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\entities\\faq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\entities\\faq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\entities\\chatsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\entities\\chatsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\controllers\\faqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:controllers\\faqcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\utilities\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:utilities\\jwthelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:exceptions\\unauthorizedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\utilities\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:utilities\\passwordhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\utilities\\subscriptiondefaults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:utilities\\subscriptiondefaults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\services\\faqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:services\\faqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\dtos\\faq\\updatefaqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\dtos\\faq\\updatefaqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\dtos\\faq\\createfaqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\dtos\\faq\\createfaqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:data\\mongodbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\dtos\\auth\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\dtos\\chat\\chatsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\dtos\\chat\\chatsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\dtos\\faq\\faqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\dtos\\faq\\faqdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\dtos\\auth\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\dtos\\auth\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\dtos\\auth\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\dtos\\auth\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\models\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:models\\dtos\\auth\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\data\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:data\\mongodbsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|d:\\chatbot fullstack\\chatbotplatform.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDEA72BF-C142-483B-9251-BAFD40A0C350}|ChatbotPlatform.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\ChatService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implementations\\ChatService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Implementations\\UserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\Implementations\\UserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\FAQService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implementations\\FAQService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\JwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implementations\\JwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interfaces\\IAuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implementations\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Interfaces\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\Interfaces\\IUserRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Implementations\\FAQRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\Implementations\\FAQRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\IFAQService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interfaces\\IFAQService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implementations\\UserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\CompanyService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Implementations\\CompanyService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interfaces\\IUserService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\IJwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interfaces\\IJwtService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\ICompanyService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interfaces\\ICompanyService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\IChatService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\Interfaces\\IChatService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Interfaces\\IChatSessionRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\Interfaces\\IChatSessionRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Interfaces\\IFAQRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\Interfaces\\IFAQRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Interfaces\\ICompanyRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\Interfaces\\ICompanyRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Implementations\\ChatSessionRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\Implementations\\ChatSessionRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Interfaces\\IRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\Interfaces\\IRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Implementations\\CompanyRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\Implementations\\CompanyRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Implementations\\Repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\Implementations\\Repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateCompanyDto.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Company\\UpdateCompanyDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Company\\UpdateCompanyDto.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Company\\UpdateCompanyDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Company\\UpdateCompanyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T12:57:47.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CompanyController.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Controllers\\CompanyController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CompanyController.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Controllers\\CompanyController.cs",
+              "RelativeToolTip": "Controllers\\CompanyController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAQwFMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T11:38:07.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateCompanyDto.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Company\\CreateCompanyDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Company\\CreateCompanyDto.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Company\\CreateCompanyDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Company\\CreateCompanyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T07:46:24.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CompanyDto.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Company\\CompanyDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Company\\CompanyDto.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Company\\CompanyDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Company\\CompanyDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T12:33:23.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateCompanyWithAdminDto.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Company\\CreateCompanyWithAdminDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Company\\CreateCompanyWithAdminDto.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Company\\CreateCompanyWithAdminDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Company\\CreateCompanyWithAdminDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-08T12:36:26.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Auth\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Auth\\CreateUserDto.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Auth\\CreateUserDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Auth\\CreateUserDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T12:55:09.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AuthResponseDto.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Auth\\AuthResponseDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Auth\\AuthResponseDto.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Auth\\AuthResponseDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Auth\\AuthResponseDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T12:51:00Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FAQ.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\Entities\\FAQ.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\FAQ.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\Entities\\FAQ.cs",
+              "RelativeToolTip": "Models\\Entities\\FAQ.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAwwBoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T05:50:11.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\UserService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\UserService.cs",
+              "RelativeToolTip": "Services\\UserService.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAADwvy4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:54:56.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ChatController.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Controllers\\ChatController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ChatController.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Controllers\\ChatController.cs",
+              "RelativeToolTip": "Controllers\\ChatController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAYwHIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T11:38:52.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\CompanyService.cs",
+              "RelativeDocumentMoniker": "Services\\CompanyService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\CompanyService.cs",
+              "RelativeToolTip": "Services\\CompanyService.cs",
+              "ViewState": "AgIAAK8AAAAAAAAAAAAAwM0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:55:29.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAMIAAAAAAAAAAAAcwHsAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T11:38:18.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DatabaseSeeder.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Data\\DatabaseSeeder.cs",
+              "RelativeDocumentMoniker": "Data\\DatabaseSeeder.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Data\\DatabaseSeeder.cs",
+              "RelativeToolTip": "Data\\DatabaseSeeder.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAQwHIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:42:56.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FAQController.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Controllers\\FAQController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FAQController.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Controllers\\FAQController.cs",
+              "RelativeToolTip": "Controllers\\FAQController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T11:38:32.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Company.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\Entities\\Company.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Company.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\Entities\\Company.cs",
+              "RelativeToolTip": "Models\\Entities\\Company.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCkAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T12:35:32.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\User.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\Entities\\User.cs",
+              "RelativeToolTip": "Models\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:11:03.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ChatSession.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\Entities\\ChatSession.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\ChatSession.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\Entities\\ChatSession.cs",
+              "RelativeToolTip": "Models\\Entities\\ChatSession.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAA4wEAAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T12:41:47.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\BaseEntity.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "Models\\Entities\\BaseEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T12:10:14.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAQwC4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:53:25.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAwCQAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T11:37:50.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\JwtService.cs",
+              "RelativeDocumentMoniker": "Services\\JwtService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\JwtService.cs",
+              "RelativeToolTip": "Services\\JwtService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAcwB4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:56:42.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T10:54:52.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "JwtHelper.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Utilities\\JwtHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\JwtHelper.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Utilities\\JwtHelper.cs",
+              "RelativeToolTip": "Utilities\\JwtHelper.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAgwD4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T12:01:14.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UnauthorizedException.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Exceptions\\UnauthorizedException.cs",
+              "RelativeDocumentMoniker": "Exceptions\\UnauthorizedException.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Exceptions\\UnauthorizedException.cs",
+              "RelativeToolTip": "Exceptions\\UnauthorizedException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T13:22:48.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\ChatService.cs",
+              "RelativeDocumentMoniker": "Services\\ChatService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\ChatService.cs",
+              "RelativeToolTip": "Services\\ChatService.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAcwKkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:56:22.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "PasswordHelper.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Utilities\\PasswordHelper.cs",
+              "RelativeDocumentMoniker": "Utilities\\PasswordHelper.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Utilities\\PasswordHelper.cs",
+              "RelativeToolTip": "Utilities\\PasswordHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T12:01:23.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SubscriptionDefaults.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Utilities\\SubscriptionDefaults.cs",
+              "RelativeDocumentMoniker": "Utilities\\SubscriptionDefaults.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Utilities\\SubscriptionDefaults.cs",
+              "RelativeToolTip": "Utilities\\SubscriptionDefaults.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwBoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T11:54:27.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FAQService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\FAQService.cs",
+              "RelativeDocumentMoniker": "Services\\FAQService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\FAQService.cs",
+              "RelativeToolTip": "Services\\FAQService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAEwFYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:56:00.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UpdateFAQDto.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\FAQ\\UpdateFAQDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\FAQ\\UpdateFAQDto.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\FAQ\\UpdateFAQDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\FAQ\\UpdateFAQDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:08:52.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CreateFAQDto.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\FAQ\\CreateFAQDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\FAQ\\CreateFAQDto.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\FAQ\\CreateFAQDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\FAQ\\CreateFAQDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:07:57.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MongoDbContext.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Data\\MongoDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\MongoDbContext.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Data\\MongoDbContext.cs",
+              "RelativeToolTip": "Data\\MongoDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T10:49:05.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Auth\\RegisterDto.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Auth\\RegisterDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Auth\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T12:31:18.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ChatSessionDto.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Chat\\ChatSessionDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Chat\\ChatSessionDto.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Chat\\ChatSessionDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Chat\\ChatSessionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:09:39.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FAQDto.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\FAQ\\FAQDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\FAQ\\FAQDto.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\FAQ\\FAQDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\FAQ\\FAQDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T13:06:26.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Models\\ApiResponse.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\ApiResponse.cs",
+              "RelativeToolTip": "Models\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T11:53:17.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Auth\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Auth\\UpdateUserDto.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Auth\\UpdateUserDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Auth\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T12:55:29.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Auth\\UserDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Auth\\UserDto.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Auth\\UserDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Auth\\UserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T12:50:00.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\Auth\\LoginDto.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Models\\DTOs\\Auth\\LoginDto.cs",
+              "RelativeToolTip": "Models\\DTOs\\Auth\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T12:48:27.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MongoDbSettings.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Data\\MongoDbSettings.cs",
+              "RelativeDocumentMoniker": "Data\\MongoDbSettings.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Data\\MongoDbSettings.cs",
+              "RelativeToolTip": "Data\\MongoDbSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T10:55:54.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAAAmwNwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T06:02:59.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\ChatService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\ChatService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\ChatService.cs",
+              "RelativeToolTip": "Services\\Implementations\\ChatService.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAnwJIAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T12:02:42.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\UserRepository.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Implementations\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\UserRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAjwB0AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T11:04:20.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "FAQService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\FAQService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\FAQService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\FAQService.cs",
+              "RelativeToolTip": "Services\\Implementations\\FAQService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T12:02:30.213Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\JwtService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\JwtService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\JwtService.cs",
+              "RelativeToolTip": "Services\\Implementations\\JwtService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAIA3wCUAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T11:59:25.122Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IAuthService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T10:53:54.292Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\AuthService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\AuthService.cs",
+              "RelativeToolTip": "Services\\Implementations\\AuthService.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAnwIYAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T12:06:01.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAEwBIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T10:49:52.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "FAQRepository.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Implementations\\FAQRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\FAQRepository.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Implementations\\FAQRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\FAQRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T11:40:45.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "IFAQService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\IFAQService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IFAQService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\IFAQService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IFAQService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwYAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T11:45:26.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\UserService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\UserService.cs",
+              "RelativeToolTip": "Services\\Implementations\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T12:55:48.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "CompanyService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\CompanyService.cs",
+              "RelativeDocumentMoniker": "Services\\Implementations\\CompanyService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Implementations\\CompanyService.cs",
+              "RelativeToolTip": "Services\\Implementations\\CompanyService.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAowAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T11:59:39.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T12:54:01.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IJwtService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\IJwtService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IJwtService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\IJwtService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IJwtService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T10:56:11.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "ICompanyService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\ICompanyService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\ICompanyService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\ICompanyService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\ICompanyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T11:40:23.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IChatService.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\IChatService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IChatService.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Services\\Interfaces\\IChatService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IChatService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T11:54:52.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "IChatSessionRepository.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Interfaces\\IChatSessionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IChatSessionRepository.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Interfaces\\IChatSessionRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IChatSessionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T11:03:01.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "IFAQRepository.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Interfaces\\IFAQRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IFAQRepository.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Interfaces\\IFAQRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IFAQRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T11:02:24.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ICompanyRepository.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Interfaces\\ICompanyRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\ICompanyRepository.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Interfaces\\ICompanyRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\ICompanyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T11:01:51.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "ChatSessionRepository.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Implementations\\ChatSessionRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\ChatSessionRepository.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Implementations\\ChatSessionRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\ChatSessionRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAADwvx0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-05T10:08:30.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T10:47:05.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "CompanyRepository.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Implementations\\CompanyRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\CompanyRepository.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Implementations\\CompanyRepository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\CompanyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T11:35:13.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Implementations\\Repository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Implementations\\Repository.cs",
+              "ToolTip": "D:\\ChatBot FullStack\\ChatbotPlatform.API\\Repositories\\Implementations\\Repository.cs",
+              "RelativeToolTip": "Repositories\\Implementations\\Repository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA0wAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T10:48:00.09Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
