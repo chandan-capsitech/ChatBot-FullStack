@@ -39,7 +39,7 @@ namespace ChatbotPlatform.API.Models.Entities
         public ContactDetails? ContactDetails { get; set; }
 
         [BsonElement("subscribed")]
-        public bool Subscribed => Status == CompanyStatus.Active;
+        public bool Subscribed { get; set; } = true;
     }
 
     public class SubscriptionLimits
@@ -69,10 +69,10 @@ namespace ChatbotPlatform.API.Models.Entities
         public string City { get; set; } = string.Empty;
 
         [BsonElement("street")]
-        public string? Street { get; set; }
+        public string Street { get; set; } = string.Empty;
 
         [BsonElement("landmark")]
-        public string? Landmark { get; set; }
+        public string Landmark { get; set; } = string.Empty;
 
         [BsonElement("pinCode")]
         public string PinCode { get; set; } = string.Empty;

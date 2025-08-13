@@ -106,7 +106,7 @@ public class CompanyService
         };
     }
 
-    public async Task<CompanyDto> UpdateAsync(string id, UpdateCompanyDto updateCompanyDto)
+    public async Task<CompanyDto> UpdateAsync(string id, UpdateCompanyDto updateCompanyDto, bool allowFullUpdate)
     {
         var existingCompany = await _context.Companies.Find(c => c.Id == id).FirstOrDefaultAsync();
 
@@ -116,72 +116,91 @@ public class CompanyService
         }
 
         // manual mapping for null checks
-        if (!string.IsNullOrEmpty(updateCompanyDto.CompanyName))
+
+        if (allowFullUpdate)
         {
-            existingCompany.CompanyName = updateCompanyDto.CompanyName;
+            ApplyFullUpdate(existingCompany, updateCompanyDto);
+        }
+        else
+        {
+            ApplyAddressAndContactUpdate(existingCompany, updateCompanyDto);
         }
 
-        if (!string.IsNullOrEmpty(updateCompanyDto.CompanyType))
-        {
-            existingCompany.CompanyType = updateCompanyDto.CompanyType;
-        }
-
-        if (updateCompanyDto.SubscriptionType.HasValue)
-        {
-            existingCompany.Subscription = updateCompanyDto.SubscriptionType.Value;
-        }
-
-        if (updateCompanyDto.Domains != null)
-        {
-            existingCompany.Domains = updateCompanyDto.Domains;
-        }
-
-        if (updateCompanyDto.Address != null)
-        {
-            if (existingCompany.Address == null)
-            {
-                existingCompany.Address = new Address();
-            }
-
-            existingCompany.Address.AddressName = updateCompanyDto.Address.AddressName ?? existingCompany.Address.AddressName;
-            existingCompany.Address.AddressType = updateCompanyDto.Address.AddressType;
-            existingCompany.Address.City = updateCompanyDto.Address.City ?? existingCompany.Address.City;
-            existingCompany.Address.Street = updateCompanyDto.Address.Street ?? existingCompany.Address.Street;
-            existingCompany.Address.PinCode = updateCompanyDto.Address.PinCode ?? existingCompany.Address.PinCode;
-            existingCompany.Address.District = updateCompanyDto.Address.District ?? existingCompany.Address.District;
-            existingCompany.Address.State = updateCompanyDto.Address.State ?? existingCompany.Address.State;
-            existingCompany.Address.Country = updateCompanyDto.Address.Country ?? existingCompany.Address.Country;
-        }
-
-        if (updateCompanyDto.ContactDetails != null)
-        {
-            if (existingCompany.ContactDetails == null)
-            {
-                existingCompany.ContactDetails = new ContactDetails();
-            }
-
-            existingCompany.ContactDetails.Name = updateCompanyDto.ContactDetails.Name ?? existingCompany.ContactDetails.Name;
-            existingCompany.ContactDetails.Designation = updateCompanyDto.ContactDetails.Designation ?? existingCompany.ContactDetails.Designation;
-            existingCompany.ContactDetails.PrimaryEmail = updateCompanyDto.ContactDetails.PrimaryEmail ?? existingCompany.ContactDetails.PrimaryEmail;
-            existingCompany.ContactDetails.SupportPhone = updateCompanyDto.ContactDetails.SupportPhone ?? existingCompany.ContactDetails.SupportPhone;
-            existingCompany.ContactDetails.CC = updateCompanyDto.ContactDetails.CC ?? existingCompany.ContactDetails.CC;
-        }
-
-        if (updateCompanyDto.EmployeeCount.HasValue)
-        {
-            existingCompany.EmployeeCount = updateCompanyDto.EmployeeCount.Value;
-        }
-
-        if (updateCompanyDto.Status.HasValue)
-        {
-            existingCompany.Status = updateCompanyDto.Status.Value;
-        }
         //_mapper.Map(updateCompanyDto, existingCompany);
         existingCompany.UpdatedAt = DateTime.UtcNow;
 
         await _context.Companies.ReplaceOneAsync(c => c.Id == id, existingCompany);
 
         return _mapper.Map<CompanyDto>(existingCompany);
+    }
+
+    private void ApplyFullUpdate(Company existingCompany, UpdateCompanyDto dto)
+    {
+        if (!string.IsNullOrEmpty(dto.CompanyName))
+        {
+            existingCompany.CompanyName = dto.CompanyName;
+        }
+
+        if (!string.IsNullOrEmpty(dto.CompanyType))
+        {
+            existingCompany.CompanyType = dto.CompanyType;
+        }
+
+        if (dto.Subscription.HasValue)
+        {
+            existingCompany.Subscription = dto.Subscription.Value;
+            existingCompany.SubscriptionLimits = SubscriptionDefaults.GetLimitsForSubscription(dto.Subscription.Value);
+        }
+
+        if (dto.Domains != null)
+        {
+            existingCompany.Domains = dto.Domains;
+        }
+        if (dto.EmployeeCount.HasValue)
+        {
+            existingCompany.EmployeeCount = dto.EmployeeCount.Value;
+        }
+
+        if (dto.Status.HasValue)
+        {
+            existingCompany.Status = dto.Status.Value;
+        }
+
+        ApplyAddressAndContactUpdate(existingCompany, dto);
+    }
+
+    private void ApplyAddressAndContactUpdate(Company existingCompany, UpdateCompanyDto dto)
+    {
+        if (dto.Address != null)
+        {
+            if (existingCompany.Address == null)
+            {
+                existingCompany.Address = new Address();
+            }
+
+            existingCompany.Address.AddressName = dto.Address.AddressName ?? existingCompany.Address.AddressName;
+            existingCompany.Address.AddressType = dto.Address.AddressType;
+            existingCompany.Address.City = dto.Address.City ?? existingCompany.Address.City;
+            existingCompany.Address.Street = dto.Address.Street ?? existingCompany.Address.Street;
+            existingCompany.Address.PinCode = dto.Address.PinCode ?? existingCompany.Address.PinCode;
+            existingCompany.Address.District = dto.Address.District ?? existingCompany.Address.District;
+            existingCompany.Address.State = dto.Address.State ?? existingCompany.Address.State;
+            existingCompany.Address.Country = dto.Address.Country ?? existingCompany.Address.Country;
+        }
+
+        if (dto.ContactDetails != null)
+        {
+            if (existingCompany.ContactDetails == null)
+            {
+                existingCompany.ContactDetails = new ContactDetails();
+            }
+
+            existingCompany.ContactDetails.Name = dto.ContactDetails.Name ?? existingCompany.ContactDetails.Name;
+            existingCompany.ContactDetails.Designation = dto.ContactDetails.Designation ?? existingCompany.ContactDetails.Designation;
+            existingCompany.ContactDetails.PrimaryEmail = dto.ContactDetails.PrimaryEmail ?? existingCompany.ContactDetails.PrimaryEmail;
+            existingCompany.ContactDetails.SupportPhone = dto.ContactDetails.SupportPhone ?? existingCompany.ContactDetails.SupportPhone;
+            existingCompany.ContactDetails.CC = dto.ContactDetails.CC ?? existingCompany.ContactDetails.CC;
+        }
     }
 
     public async Task DeleteAsync(string id)

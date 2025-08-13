@@ -5,7 +5,7 @@ namespace ChatbotPlatform.API.Models.DTOs.Company
     {
         public string? CompanyName { get; set; }
         public string? CompanyType { get; set; }
-        public SubscriptionType? SubscriptionType { get; set; }
+        public SubscriptionType? Subscription { get; set; }
         public List<string>? Domains { get; set; }
         public Address? Address { get; set; }
         public ContactDetails? ContactDetails { get; set; }

@@ -61,7 +61,8 @@ public class DatabaseSeeder
             Status = UserStatus.Active,
             Timezone = "UTC",
             CreatedAt = DateTime.UtcNow,
-            UpdatedAt = DateTime.UtcNow
+            UpdatedAt = DateTime.UtcNow,
+            CreatedBy = "I am the creator"
         };
 
         // if no superadmin exists

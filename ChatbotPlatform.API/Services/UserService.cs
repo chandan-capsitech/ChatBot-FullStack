@@ -11,13 +11,11 @@ public class UserService
 {
     private readonly MongoDbContext _context;
     private readonly IMapper _mapper;
-    private readonly ILogger<UserService> _logger;
 
     public UserService(MongoDbContext context, IMapper mapper, ILogger<UserService> logger)
     {
         _context = context;
         _mapper = mapper;
-        _logger = logger;
     }
 
     public async Task<List<UserDto>> GetAllAsync()
@@ -26,7 +24,7 @@ public class UserService
         return _mapper.Map<List<UserDto>>(users);
     }
 
-    public async Task<List<UserDto>> GetByCompanyIdAsync(string companyId)
+    public async Task<List<UserDto>> GetAllByCompanyIdAsync(string companyId)
     {
         var users = await _context.Users.Find(u => u.CompanyId == companyId).ToListAsync();
         return _mapper.Map<List<UserDto>>(users);
@@ -90,7 +88,6 @@ public class UserService
         // update company count
         await UpdateCompanyUserCountsAsync(createUserDto.CompanyId, createUserDto.Role, isIncrement: true);
 
-        _logger.LogInformation("User created successfully: {Email} with role {Role} for company {CompanyId}", user.Email, createUserDto.Role, createUserDto.CompanyId);
         return _mapper.Map<UserDto>(user);
     }
 
@@ -151,7 +148,6 @@ public class UserService
         existingUser.UpdatedAt = DateTime.UtcNow;
 
         await _context.Users.ReplaceOneAsync(u => u.Id == id, existingUser);
-        _logger.LogInformation("User updated successfully: {Id}", id);
 
         return _mapper.Map<UserDto>(existingUser);
     }
@@ -174,7 +170,6 @@ public class UserService
         // Update company counts (decrement)
         await UpdateCompanyUserCountsAsync(user.CompanyId!, user.Role, isIncrement: false);
 
-        _logger.LogInformation("User deleted successfully: {Id}", id);
     }
 
     public async Task<UserDto> UpdateStatusAsync(string id, UserStatus status)
@@ -190,7 +185,6 @@ public class UserService
         existingUser.UpdatedAt = DateTime.UtcNow;
 
         await _context.Users.ReplaceOneAsync(u => u.Id == id, existingUser);
-        _logger.LogInformation("User status updated: {Id} -> {Status}", id, status);
 
         return _mapper.Map<UserDto>(existingUser);
     }
@@ -243,7 +237,5 @@ public class UserService
         update = update.Set(c => c.UpdatedAt, DateTime.UtcNow);
 
         await _context.Companies.UpdateOneAsync(filter, update);
-
-        _logger.LogInformation("Updated company {CompanyId} {Role} count by {Change}", companyId, role, isIncrement ? "+1" : "-1");
     }
 }

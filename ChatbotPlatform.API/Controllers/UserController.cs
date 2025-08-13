@@ -61,7 +61,7 @@ public class UserController : ControllerBase
                 return res;
             }
 
-            var users = await _userService.GetByCompanyIdAsync(companyId);
+            var users = await _userService.GetAllByCompanyIdAsync(companyId);
 
             var message = currentUserRole == "Admin" ? $"Retrieved {users.Count()} users from your company (you can manage all of them)" : "Users retrieved successfully";
 
@@ -116,6 +116,12 @@ public class UserController : ControllerBase
         var res = new ApiResponse<UserDto>();
         try
         {
+            if(dto.Role == UserRole.SuperAdmin)
+            {
+                res.Message = "Superadmin can not be created more than one";
+                res.Status = false;
+                return res;
+            }
             // Check if current user can create users for this company
             var currentUserRole = User.FindFirst(ClaimTypes.Role)?.Value;
             var currentUserCompanyId = User.FindFirst("companyId")?.Value;
@@ -154,7 +160,7 @@ public class UserController : ControllerBase
                     return res;
                 }
 
-                // Company Admin CAN create both Admin and Employee roles
+                // Company Admin can create both Admin and Employee roles
                 if (dto.Role != UserRole.Admin && dto.Role != UserRole.Employee)
                 {
                     res.Status = false;
@@ -224,7 +230,7 @@ public class UserController : ControllerBase
             res.Status = true;
             res.Message = "User updated successfully";
             res.Result = user;
-        }
+        }   
         catch (Exception ex)
         {
             res.Status = false;

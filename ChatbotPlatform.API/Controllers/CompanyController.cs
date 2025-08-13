@@ -30,7 +30,7 @@ public class CompanyController : ControllerBase
             var companies = await _companyService.GetAllAsync();
             res.Status = true;
             res.Message = "Companies retrieved successfully";
-            res.Result = companies.ToList();
+            res.Result = companies;
         }
         catch (Exception ex)
         {
@@ -116,15 +116,23 @@ public class CompanyController : ControllerBase
         return res;
     }
 
-    [HttpPut("{id}")]
+    [HttpPatch("{id}")]
     [Authorize(Policy = "AdminOrAbove")]
-    public async Task<ApiResponse<CompanyDto>> Update(string id, UpdateCompanyDto dto)
+    public async Task<ApiResponse<CompanyDto>> PatchUpdate(string id, UpdateCompanyDto dto)
     {
         var res = new ApiResponse<CompanyDto>();
         try
         {
             var currentUserCompanyId = User.FindFirst("companyId")?.Value;
             var currentUserRole = User.FindFirst(ClaimTypes.Role)?.Value;
+
+            // Employee can not update anything
+            if (currentUserRole == "Employee")
+            {
+                res.Status = false;
+                res.Message = "Employee can not update anything";
+                return res;
+            }
 
             // Check if user has access to update this company
             if (currentUserRole != "SuperAdmin" && currentUserCompanyId != id)
@@ -134,7 +142,10 @@ public class CompanyController : ControllerBase
                 return res;
             }
 
-            var company = await _companyService.UpdateAsync(id, dto);
+            // Define allowed fields based on role
+            bool allowFullUpdate = currentUserRole == "SuperAdmin";
+
+            var company = await _companyService.UpdateAsync(id, dto, allowFullUpdate);
             res.Status = true;
             res.Message = "Company updated successfully";
             res.Result = company;
